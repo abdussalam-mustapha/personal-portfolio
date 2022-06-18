@@ -79,6 +79,10 @@ h6{font-size: 16px;}
 .h::before,
 .h::after{
   content: "";
+  position: absolute;
+}
+
+.h::before{
   background: teal;
 }
 
