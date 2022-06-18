@@ -69,6 +69,17 @@ h6{font-size: 16px;}
     margin: 0 auto;
 }
 
+.h{
+  font-size: clamp(1rem, 3vw + 1rem, 4rem;
+  position: relative;
+}
+
+.subtitle{
+  color: grey;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .greeting-wrapper{
     display: grid;
     text-align: center;
