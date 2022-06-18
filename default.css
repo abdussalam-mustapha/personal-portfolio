@@ -69,20 +69,20 @@ h6{font-size: 16px;}
     margin: 0 auto;
 }
 
-#h{
+#name{
   font-size: 4rem;
   position: relative;
 }
 
 
 
-#h::before,
+#name::before,
 .h::after{
   content: "";
   position: absolute;
 }
 
-#h::before{
+#name::before{
   background: teal;
 }
 
