@@ -69,24 +69,24 @@ h6{font-size: 16px;}
     margin: 0 auto;
 }
 
-.h{
+#h{
   font-size: 4rem;
   position: relative;
 }
 
 
 
-.h::before,
+#h::before,
 .h::after{
   content: "";
   position: absolute;
 }
 
-.h::before{
+#h::before{
   background: teal;
 }
 
-.subtitle{
+#subtitle{
   color: blue;
   font-size: 30rem;
   font-weight: 400;
