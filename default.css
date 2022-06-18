@@ -74,9 +74,17 @@ h6{font-size: 16px;}
   position: relative;
 }
 
+
+
+.h::before,
+.h::after{
+  content: "";
+  background: teal;
+}
+
 .subtitle{
   color: grey;
-  font-size: 3rem;
+  font-size: 30rem;
   font-weight: 400;
 }
 
